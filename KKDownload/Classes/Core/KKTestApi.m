@@ -14,4 +14,10 @@
     NSLog(@"testMethod enter");
 
 }
+
+-(void)testLog{
+
+    NSLog(@"testLog enter");
+
+}
 @end

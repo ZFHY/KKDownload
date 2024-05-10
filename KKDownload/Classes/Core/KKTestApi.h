@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface KKTestApi : NSObject
 
 -(void)testMethod;
+
+-(void)testLog;
 @end
 
 NS_ASSUME_NONNULL_END
