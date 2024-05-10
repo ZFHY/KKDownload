@@ -15,27 +15,28 @@ Pod::Spec.new do |s|
   s.author           = { 'ZFHY' => '18736099531@163.com' }
   s.source           = { :git => 'https://github.com/ZFHY/KKDownload.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.source_files = 'KKDownload/Classes/Core/**/*'
+  
   s.ios.deployment_target = '12.0'
   s.requires_arc = true
   s.static_framework = true
   s.default_subspec = 'Core'
   
-#  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-#  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
       
-  s.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'armv7 armv7s',
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'armv7 armv7s arm64'
-  }
-  s.user_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'armv7 armv7s',
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => "armv7 armv7s arm64"
-  }
+#  s.pod_target_xcconfig = {
+#    'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'armv7 armv7s',
+#    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'armv7 armv7s arm64'
+#  }
+#  s.user_target_xcconfig = {
+#    'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'armv7 armv7s',
+#    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => "armv7 armv7s arm64"
+#  }
 
   s.subspec 'Core' do |core|
       core.source_files = 'KKDownload/Classes/Core/**/*'
-      core.public_header_files = 'ZFPlayer/Classes/Core/**/*.h'
+      core.public_header_files = 'KKDownload/Classes/Core/**/*.h'
       core.frameworks = 'UIKit'
   end
   
