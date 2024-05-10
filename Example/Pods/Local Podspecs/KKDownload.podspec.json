@@ -1,8 +1,7 @@
 {
   "name": "KKDownload",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "summary": "A short description of KKDownload.",
-  "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/ZFHY/KKDownload",
   "license": {
     "type": "MIT",
@@ -13,19 +12,20 @@
   },
   "source": {
     "git": "https://github.com/ZFHY/KKDownload.git",
-    "tag": "0.1.1"
+    "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
+  "requires_arc": true,
+  "static_framework": true,
+  "default_subspecs": "Core",
   "pod_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },
   "user_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },
-  "requires_arc": true,
-  "default_subspecs": "Core",
   "dependencies": {
     "AFNetworking": [
 

@@ -14,11 +14,11 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - KKDownload (0.1.1):
+  - KKDownload (0.1.0):
     - AFNetworking
-    - KKDownload/Core (= 0.1.1)
+    - KKDownload/Core (= 0.1.0)
     - YYModel
-  - KKDownload/Core (0.1.1):
+  - KKDownload/Core (0.1.0):
     - AFNetworking
     - YYModel
   - YYModel (1.0.4)
@@ -37,9 +37,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  KKDownload: bb6ad61395f26a5d45ddbf937996760a30a7fd1e
+  KKDownload: 3650e6e66cef8dc6fe403e41ba323e6c906dddb1
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 8c2fa602a2c68e815ab9ed6a6101cb11a5bc4ae2
+PODFILE CHECKSUM: 97f7496662b64af8f3ca13034e303358fced39d7
 
 COCOAPODS: 1.15.2
