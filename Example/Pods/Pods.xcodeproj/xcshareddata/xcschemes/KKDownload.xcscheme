@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7886AE436E5CB181073170FECAA42553"
-               BuildableName = "KKDownload"
+               BuildableName = "KKDownload.framework"
                BlueprintName = "KKDownload"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
