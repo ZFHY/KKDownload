@@ -1,7 +1,5 @@
-
 # Xcode
-.DS_Store
-/build/
+build/
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -10,17 +8,18 @@
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-xcuserdata
+xcuserdata/
+*.xccheckout
 profile
 *.moved-aside
 DerivedData
-.idea/
 *.hmap
-*.xccheckout
-*.xcworkspace
-!default.xcworkspace
-#CocoaPods
-Pods
-!Podfile
-# 最好也忽略Podfile.lock
-# !Podfile.lock
+*.ipa
+
+# Bundler
+.bundle
+
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build

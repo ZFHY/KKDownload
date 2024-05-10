@@ -1,0 +1,44 @@
+{
+  "name": "KKDownload",
+  "version": "0.1.0",
+  "summary": "A short description of KKDownload.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ZFHY/KKDownload",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ZFHY": "18736099531@163.com"
+  },
+  "source": {
+    "git": "https://github.com/ZFHY/KKDownload.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "default_subspecs": "Core",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "KKDownload/Classes/Core/**/*",
+      "public_header_files": "ZFPlayer/Classes/Core/**/*.h",
+      "frameworks": "UIKit"
+    }
+  ]
+}

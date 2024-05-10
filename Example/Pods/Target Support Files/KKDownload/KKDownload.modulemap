@@ -1,0 +1,6 @@
+framework module KKDownload {
+  umbrella header "KKDownload-umbrella.h"
+
+  export *
+  module * { export * }
+}

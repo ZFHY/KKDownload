@@ -1,0 +1,6 @@
+framework module Pods_KKDownload_Example {
+  umbrella header "Pods-KKDownload_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
