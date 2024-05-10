@@ -3,7 +3,8 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'KKDownload_Example' do
-  pod 'KKDownload', :path => '../'
+#  pod 'KKDownload', :path => '../'
+pod 'KKDownload'
 
   target 'KKDownload_Tests' do
     inherit! :search_paths
