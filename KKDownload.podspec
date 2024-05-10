@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKDownload'
-  s.version          = '0.1.1'
+  s.version          = '0.1.0'
   s.summary          = 'A short description of KKDownload.'
 
 # This description is used to generate tags and improve search results.
