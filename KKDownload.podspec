@@ -21,17 +21,17 @@ Pod::Spec.new do |s|
   s.static_framework = true
   s.default_subspec = 'Core'
   
-#  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-#  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
       
-  s.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'armv7 armv7s',
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'armv7 armv7s arm64'
-  }
-  s.user_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'armv7 armv7s',
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => "armv7 armv7s arm64"
-  }
+#  s.pod_target_xcconfig = {
+#    'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'armv7 armv7s',
+#    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'armv7 armv7s arm64'
+#  }
+#  s.user_target_xcconfig = {
+#    'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'armv7 armv7s',
+#    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => "armv7 armv7s arm64"
+#  }
 
   s.subspec 'Core' do |core|
       core.source_files = 'KKDownload/Classes/Core/**/*'
