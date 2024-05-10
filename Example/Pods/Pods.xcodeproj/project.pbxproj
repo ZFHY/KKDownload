@@ -891,6 +891,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 426436B693578B56BA30EECD27F0E8C8 /* KKDownload.release.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+					i386,
+					arm64,
+					armv7,
+					armv7s,
+				);
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1245,6 +1253,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A4C4F68D3DC5DEB373D809CFBE0F2914 /* KKDownload.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+					i386,
+					arm64,
+					armv7,
+					armv7s,
+				);
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
