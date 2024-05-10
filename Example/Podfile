@@ -12,6 +12,9 @@ end
 target 'KKDownload_Example' do
   pod 'KKDownload', :path => '../'
 
+  pod 'AFNetworking'
+  pod 'YYModel'
+  
   target 'KKDownload_Tests' do
     inherit! :search_paths
     
