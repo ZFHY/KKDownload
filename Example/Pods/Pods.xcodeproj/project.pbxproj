@@ -189,7 +189,7 @@
 		DEFE0E8F5272097BC4A2F28050D489EA /* YYModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.release.xcconfig; sourceTree = "<group>"; };
 		E108F0C3D06C3D652F8BDF013771C092 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5BA270209BE2C85F76A4ECF401F04A9 /* Pods-KKDownload_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KKDownload_Example"; path = Pods_KKDownload_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5BA270209BE2C85F76A4ECF401F04A9 /* Pods_KKDownload_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKDownload_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CF9F5DE16319E71FD12A619FB9FC70 /* Pods-KKDownload_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKDownload_Example-Info.plist"; sourceTree = "<group>"; };
 		EE575F1D31C65FE09ED377984E6A828D /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		EE59144095BAA3A397832FD51A0920F8 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
@@ -197,7 +197,7 @@
 		F3387B3C5EB39C5A2E8EBE00A618FF2E /* Pods-KKDownload_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKDownload_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F66CCCEA8226D3EE3848D242F46B3073 /* Pods-KKDownload_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKDownload_Tests-dummy.m"; sourceTree = "<group>"; };
 		F707BAE21FADDF127EE699669CA2C8F1 /* KKDownload-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKDownload-Info.plist"; sourceTree = "<group>"; };
-		F892E7EFD5A2668006BBBF1118211C4B /* Pods-KKDownload_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KKDownload_Tests"; path = Pods_KKDownload_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F892E7EFD5A2668006BBBF1118211C4B /* Pods_KKDownload_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKDownload_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95A1DC9677016916EACBD243376341A /* KKDownload-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKDownload-prefix.pch"; sourceTree = "<group>"; };
 		FAD280ECE94EFFD25ECBF36B7A71410C /* YYModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYModel.modulemap; sourceTree = "<group>"; };
 		FB68D15B91BD39FF2DFF3E41934A609D /* Pods-KKDownload_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKDownload_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -319,8 +319,8 @@
 			children = (
 				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */,
 				10EDBD081ADD141AB6D2A6600120D106 /* KKDownload.framework */,
-				E5BA270209BE2C85F76A4ECF401F04A9 /* Pods-KKDownload_Example */,
-				F892E7EFD5A2668006BBBF1118211C4B /* Pods-KKDownload_Tests */,
+				E5BA270209BE2C85F76A4ECF401F04A9 /* Pods_KKDownload_Example.framework */,
+				F892E7EFD5A2668006BBBF1118211C4B /* Pods_KKDownload_Tests.framework */,
 				E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel.framework */,
 			);
 			name = Products;
@@ -622,7 +622,7 @@
 			);
 			name = "Pods-KKDownload_Tests";
 			productName = Pods_KKDownload_Tests;
-			productReference = F892E7EFD5A2668006BBBF1118211C4B /* Pods-KKDownload_Tests */;
+			productReference = F892E7EFD5A2668006BBBF1118211C4B /* Pods_KKDownload_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7886AE436E5CB181073170FECAA42553 /* KKDownload */ = {
@@ -681,7 +681,7 @@
 			);
 			name = "Pods-KKDownload_Example";
 			productName = Pods_KKDownload_Example;
-			productReference = E5BA270209BE2C85F76A4ECF401F04A9 /* Pods-KKDownload_Example */;
+			productReference = E5BA270209BE2C85F76A4ECF401F04A9 /* Pods_KKDownload_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1121,6 +1121,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
+					"COCOAPODS=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -1219,6 +1220,7 @@
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
+					"COCOAPODS=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
