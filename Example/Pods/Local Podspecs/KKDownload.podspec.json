@@ -25,7 +25,6 @@
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },
   "requires_arc": true,
-  "static_framework": true,
   "default_subspecs": "Core",
   "dependencies": {
     "AFNetworking": [

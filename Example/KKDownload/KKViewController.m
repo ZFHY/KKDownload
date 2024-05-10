@@ -7,6 +7,7 @@
 //
 
 #import "KKViewController.h"
+#import "KKTestApi.h"
 
 @interface KKViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[KKTestApi new] testMethod];
+    [[KKTestApi new] testLog];
 }
 
 - (void)didReceiveMemoryWarning
